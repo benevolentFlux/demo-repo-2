@@ -96,6 +96,7 @@ ssh-keyring:
 display the remote branches:
 
     [pwd] > git branch
+    [pwd] > git branch -m <name>
     [pwd] > git checkout -b master
 
 commit data stored:
@@ -123,3 +124,8 @@ recommended use:
     [pwd] > git add .
     [pwd] > git commit -m "commit title" -m "commit desription box message"
     [pwd] > git push origin master
+
+configure a new destination:
+
+    [pwd] > git remote add origin <github link>
+    [pwd] > git push -u origin master
